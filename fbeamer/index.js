@@ -70,7 +70,7 @@ class FBeamer {
 		});
 	}
 
-	incoming(req, res, cb) {
+	async incoming(req, res, cb) {
 		// Extract the body of the POST request
 		let data = req.body;
 
@@ -91,7 +91,16 @@ class FBeamer {
 		res.send(200);
 	}
 
-	sendMessage(payload) {
+	sendMessage(id, message, messaging_type= 'RESPONSE') {
+		let payload = {
+			messaging_type,
+			recipient: {
+				id
+			},
+			message
+		}
+		console.log("send message",payload)
+		// console.log(payload.message.quick_replies)
 		return new Promise((resolve, reject) => {
 			// Create an HTTP POST request
 			request({
@@ -112,42 +121,46 @@ class FBeamer {
 			});
 		});
 	}
+	// Propose a quick reply
+	quick_reply(text,replies){
+		// console.log(text)
+		// console.log(replies)
+		let repliesFormated = []
+		replies.forEach(elem=>{
+			repliesFormated.push({
+				"content_type":"text",
+				"title":elem.title,
+				"image_url":"https://static.lexpress.fr/medias_12175/w_2048,h_1146,c_crop,x_0,y_0/w_1000,h_563,c_fill,g_north/v1583852884/le-president-russe-vladimir-poutine-lors-d-une-conference-economique-a-moscou-le-20-novembre-2018_6233946.jpg",
+				"payload": elem.payload
+			})
+		})
+		let message = {
+			"text": text,
+			"quick_replies": repliesFormated
+		}
+		return message
+	}
+
 
 	// Send a text message
-	txt(id, text, messaging_type = 'RESPONSE') {
-		let obj = {
-			messaging_type,
-			recipient: {
-				id
-			},
-			message: {
-				text
-			}
+	txt(text) {
+		let message = {
+			text : text
 		}
-
-		this.sendMessage(obj)
-			.catch(error => console.log(error));
+		return message
 	}
 
 	// Send an image message
-	img(id, url, messaging_type = 'RESPONSE') {
-		let obj = {
-			messaging_type,
-			recipient: {
-				id
-			},
-			message: {
-				attachment: {
-					type: 'image',
-					payload: {
-						url
-					}
+	img(url) {
+		let message = {  
+			attachment: {
+				type: 'image',
+				payload: {
+					url
 				}
 			}
 		}
-
-		this.sendMessage(obj)
-			.catch(error => console.log(error));
+		return message
 	}
 }
 
