@@ -4,7 +4,7 @@ const Restify = require('restify');
 const server = Restify.createServer({
 	name: 'CocktailMate'
 });
-const tmdb = require('./cocktailDB');
+const tcdb = require('./cocktailDB');
 // FBeamer
 // Tokens
 const config = require('./config');
@@ -16,6 +16,7 @@ server.use(Restify.jsonp());
 
 // Register the webhooks
 server.get('/', (req, res, next) => {
+	conso.log("eeeeeeeee")
 	f.registerHook(req, res);
 	return next();
 });
@@ -46,7 +47,7 @@ server.post('/',
 					}
 				}
 				if(message.nlp.entities){
-					tmdb(message.nlp.entities)
+					tcdb(message.nlp.entities)
 					.then(messageReply => {
 						const  sendingProcessus = async () =>{
 							if(messageReply.message)
