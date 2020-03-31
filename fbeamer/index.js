@@ -130,7 +130,7 @@ class FBeamer {
 			repliesFormated.push({
 				"content_type":"text",
 				"title":elem.title,
-				"image_url":"https://static.lexpress.fr/medias_12175/w_2048,h_1146,c_crop,x_0,y_0/w_1000,h_563,c_fill,g_north/v1583852884/le-president-russe-vladimir-poutine-lors-d-une-conference-economique-a-moscou-le-20-novembre-2018_6233946.jpg",
+				"image_url":"https://img-3.journaldesfemmes.fr/YFEyw9oHTHScre-uh3DiCm3IQNc=/750x/smart/afa673ac36ef40e1bc1296e271753801/recipe-jdf/10026152.jpg",
 				"payload": elem.payload
 			})
 		})

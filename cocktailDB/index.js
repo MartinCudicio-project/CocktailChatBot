@@ -218,7 +218,7 @@ module.exports = nlpData => {
     return new Promise(async function(resolve, reject) {
         let intent = extractEntity(nlpData, 'intent');
         // let intent = "haveIngredients"
-        // console.log("intents :",intent)
+        console.log("intents :",intent)
         // console.log(nlpData)
         if(intent) {
            
@@ -269,10 +269,9 @@ module.exports = nlpData => {
             }
 
         } else {
+            let text = f.txt("I'm not sure I understand you\n Let's be polite, say me first Hello !")
             resolve({
-                
-                    text: "I'm not sure I understand you!\n Let's be polite, say me first Hello !"
-                
+                message : text
             });
         }
         
