@@ -53,6 +53,7 @@ server.post('/',
 									f.sendMessage(sender,messageReply.message)
 							if(messageReply.image)
 								await f.sendMessage(sender,messageReply.image)
+							// setTimeout(()=>console.log("get quick_replies after one second"),1000)
 							if(messageReply.quick_reply)
 								await f.sendMessage(sender,messageReply.quick_reply)
 						}

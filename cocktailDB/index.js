@@ -45,22 +45,51 @@ const getRandomCocktail = ()=>{
             }
             })
             .then((response)=>{
-                response = response.data.drinks[0]
+                const drink = response.data.drinks[0]
+                
                 // console.log(response.data.drinks[0])
-              let data = {
-                  strDrink : response.strDrink,
-                  strCategory: response.strCategory,
-                  strGlass : response.strGlass,
-                  strInstructions : response.strInstructions,
-                  strDrinkThumb : response.strDrinkThumb
+                // we create a list to indicate the ingredients and their quantity
+                let listQuantity = []
+                for (let index = 1; index < 15; index++) {
+                    const ingredientField = "strIngredient"+index;
+                    const quantityField = "strMeasure"+index;
+                    let ingredient = null
+                    let quantity = null
+                    Object.keys(drink).forEach(function(key) {
+                        if(key==ingredientField){
+                            ingredient = drink[key]
+                        }
+                    });
+                    Object.keys(drink).forEach(function(key) {
+                        if(key==quantityField){
+                            quantity = drink[key]
+                        }
+                    });
+                    if(ingredient!=null){
+                        listQuantity.push({ingredient:ingredient,quantity:quantity})
+                    }
+                }
+                let StringQuantity = ""
+                listQuantity.forEach(elem=>{
+                    StringQuantity += `➡️ ${elem.ingredient} - ${elem.quantity}\n`             
+                })
+
+                // we extract the value of the drink
+                let data = {
+                  strDrink : drink.strDrink,
+                  strCategory: drink.strCategory,
+                  strGlass : drink.strGlass,
+                  strInstructions : drink.strInstructions,
+                  strDrinkThumb : drink.strDrinkThumb
               }
-            message = `${data.strDrink} - ${data.strCategory}
-${data.strInstructions}
-serve with ${data.strGlass}`.substring(0, 640)
+            message = `🍹${data.strDrink} - ${data.strCategory}🍹\n
+🗒️👨‍🔬${data.strInstructions}
+${StringQuantity}
+serve with ${data.strGlass} 😏`.substring(0, 640)
               message = f.txt(message)
               image = f.img(data.strDrinkThumb)
               let replies = [{title: "new random cocktail",payload:"randomCocktail"}]
-              quick_reply = f.quick_reply("this potion doesn't inspire you?",replies)
+              quick_reply = f.quick_reply("this potion doesn't inspire you ? 🤤",replies)
               resolve({message,image,quick_reply});
             })
             .catch((error)=>{
@@ -73,9 +102,9 @@ serve with ${data.strGlass}`.substring(0, 640)
 const replyGreetings = () =>{
     return new Promise((resolve, reject) => {
         
-        let message = `Hello bro, 
-I'm a drink genius. I can suprise you with a random cocktatil !
-else indicate me what do you have in your fridge?`.substring(0, 640);
+        let message = `Hello bro 👋, 
+I'm a drink genius 🤓🧞. I can suprise you with a random cocktail ! 🔥👌 
+else indicate me what do you have in your fridge ? 🤔 `.substring(0, 640);
         //console.log(message)
         message = f.txt(message)
         resolve({message});
@@ -137,18 +166,18 @@ const replyHaveIngredients = (ingredients) =>{
                 if(!response.data){
                     console.log("pas de correspondance")
                     message =
-`sober night for you...
-I don't find cocktail with ${data[0]}`    
+`sober night for you... 🚱🚱🚱
+I don't find cocktail with ${data[0]} 😤`    
                 }
                 //if a correspondance in the API
                 else{
                     if(drinks.length>5){
                         message = 
-    `not a sober night for you...
-I find many good ideas !`
+    `🥳 not a sober night for you...
+I find many good ideas 😈😈😈!`
                     }
                     else{
-                        message = `i find ${data.length} ways to drink !`
+                        message = `🧐 i find ${drinks.length} ways to drink !`
                     }
                     while(drinks.length>10){
                         // i drop one random drink of my list
@@ -161,7 +190,7 @@ I find many good ideas !`
                     })
                     // quickly reply is composed by an text header and replies {text, payload}
                     if(drinks.length!=0)
-                        quick_reply = f.quick_reply("click one if you to be drunk",replies)
+                        quick_reply = f.quick_reply("click one if you to be drunk 🥴",replies)
                 }
                 message = f.txt(message)
                 resolve({message,quick_reply})
@@ -189,18 +218,43 @@ const getCocktailByName = (drink) =>{
             }
             })
             .then((response)=>{
-                response = response.data.drinks[0]
+                const drink = response.data.drinks[0]
             //   console.log(response.data.drinks[0])
+                let listQuantity = []
+                    for (let index = 1; index < 15; index++) {
+                        const ingredientField = "strIngredient"+index;
+                        const quantityField = "strMeasure"+index;
+                        let ingredient = null
+                        let quantity = null
+                        Object.keys(drink).forEach(function(key) {
+                            if(key==ingredientField){
+                                ingredient = drink[key]
+                            }
+                        });
+                        Object.keys(drink).forEach(function(key) {
+                            if(key==quantityField){
+                                quantity = drink[key]
+                            }
+                        });
+                        if(ingredient!=null){
+                            listQuantity.push({ingredient:ingredient,quantity:quantity})
+                        }
+                    }
+                    let StringQuantity = ""
+                    listQuantity.forEach(elem=>{
+                        StringQuantity += `➡️ ${elem.ingredient} - ${elem.quantity}\n`             
+                    })
               let data = {
-                  strDrink : response.strDrink,
-                  strCategory: response.strCategory,
-                  strGlass : response.strGlass,
-                  strInstructions : response.strInstructions,
-                  strDrinkThumb : response.strDrinkThumb
+                  strDrink : drink.strDrink,
+                  strCategory: drink.strCategory,
+                  strGlass : drink.strGlass,
+                  strInstructions : drink.strInstructions,
+                  strDrinkThumb : drink.strDrinkThumb
               }
-            message = `${data.strDrink} - ${data.strCategory}
-${data.strInstructions}
-serve with ${data.strGlass}`.substring(0, 640)
+            message = `🍹${data.strDrink} - ${data.strCategory}🍹\n
+🗒️👨‍🔬${data.strInstructions}
+${StringQuantity}
+serve with ${data.strGlass} 😏`.substring(0, 640)
               message = f.txt(message)
               image = f.img(data.strDrinkThumb)
               resolve({message,image});
@@ -221,10 +275,7 @@ module.exports = nlpData => {
         console.log("intents :",intent)
         // console.log(nlpData)
         if(intent) {
-           
             intent = intent[0]
-
-
             let ingredients = extractEntity(nlpData,'ingredient')
             let drink = extractEntity(nlpData,'drink')
             // Get data (including id) about the movie
