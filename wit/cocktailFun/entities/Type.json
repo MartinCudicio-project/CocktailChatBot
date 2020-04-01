@@ -1,0 +1,51 @@
+{
+    "data": {
+        "lookups": [
+            "keywords",
+            "free-text"
+        ],
+        "name": "Type",
+        "lang": "en",
+        "id": "Type",
+        "doc": "User-defined entity",
+        "values": [
+            {
+                "value": "strong",
+                "expressions": [
+                    "strong"
+                ]
+            },
+            {
+                "value": "fresh",
+                "expressions": [
+                    "fresh"
+                ]
+            },
+            {
+                "value": "aloolised",
+                "expressions": [
+                    "aloolised"
+                ]
+            },
+            {
+                "value": "non alcoolised",
+                "expressions": [
+                    "non alcoolised"
+                ]
+            },
+            {
+                "value": "soft",
+                "expressions": [
+                    "soft"
+                ]
+            },
+            {
+                "value": "hard",
+                "expressions": [
+                    "hard"
+                ]
+            }
+        ],
+        "builtin": false
+    }
+}

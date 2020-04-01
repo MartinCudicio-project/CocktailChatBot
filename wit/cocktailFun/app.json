@@ -1,0 +1,10 @@
+{
+    "version": 20160513,
+    "zip-command": "zip cocktailFun.zip cocktailFun\/app.json cocktailFun\/entities\/*.json cocktailFun\/expressions\/*.json",
+    "data": {
+        "name": "cocktailFun",
+        "description": "__wit_bnlp",
+        "lang": "en",
+        "timezone": "America\/Los_Angeles"
+    }
+}

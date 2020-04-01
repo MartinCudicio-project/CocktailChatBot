@@ -1,0 +1,1318 @@
+{
+    "data": [
+        {
+            "text": "Hi",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"greetings\""
+                }
+            ]
+        },
+        {
+            "text": "Hey",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"greetings\""
+                }
+            ]
+        },
+        {
+            "text": "hi",
+            "entities": [
+                {
+                    "entity": "greetings",
+                    "value": "\"true\""
+                }
+            ]
+        },
+        {
+            "text": "martin.cudicio@edu.devinci.fr",
+            "entities": []
+        },
+        {
+            "text": "give me a random cooktail",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"randomCocktail\""
+                }
+            ]
+        },
+        {
+            "text": "random cocktail ?",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"randomCocktail\""
+                }
+            ]
+        },
+        {
+            "text": "i have in my fridge lemon, rhum, gin, vodka",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 20,
+                    "end": 25,
+                    "value": "\"lemon\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 27,
+                    "end": 31,
+                    "value": "\"rhum\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 33,
+                    "end": 36,
+                    "value": "\"gin\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 38,
+                    "end": 43,
+                    "value": "\"vodka\""
+                }
+            ]
+        },
+        {
+            "text": "indicate me a random cocktail",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"randomCocktail\""
+                }
+            ]
+        },
+        {
+            "text": "suprise me",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"randomCocktail\""
+                }
+            ]
+        },
+        {
+            "text": "give me an idee of cocktail",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"randomCocktail\""
+                }
+            ]
+        },
+        {
+            "text": "i have menthe and whisky",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 7,
+                    "end": 13,
+                    "value": "\"menthe\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 18,
+                    "end": 24,
+                    "value": "\"whisky\""
+                }
+            ]
+        },
+        {
+            "text": "i want a random cocktail",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"randomCocktail\""
+                }
+            ]
+        },
+        {
+            "text": "i want to be suprised",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"randomCocktail\""
+                }
+            ]
+        },
+        {
+            "text": "What can I do with menthe and Rhum ?",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 19,
+                    "end": 25,
+                    "value": "\"menthe\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 30,
+                    "end": 34,
+                    "value": "\"rhum\""
+                }
+            ]
+        },
+        {
+            "text": "Give me an advice for a good cocktail with Vodka",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 43,
+                    "end": 48,
+                    "value": "\"vodka\""
+                }
+            ]
+        },
+        {
+            "text": "Give me an incredible cocktail !",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"randomCocktail\""
+                }
+            ]
+        },
+        {
+            "text": "I am thirsty",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"randomCocktail\""
+                }
+            ]
+        },
+        {
+            "text": "Give me a good orange juice cocktail",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 15,
+                    "end": 27,
+                    "value": "\"orange juice\""
+                }
+            ]
+        },
+        {
+            "text": "Surprise me ",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"randomCocktail\""
+                }
+            ]
+        },
+        {
+            "text": "I wanna drink",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"randomCocktail\""
+                }
+            ]
+        },
+        {
+            "text": "Give me ideas with a lemon juice",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 21,
+                    "end": 32,
+                    "value": "\"lemon juice\""
+                }
+            ]
+        },
+        {
+            "text": "I want something hard",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"wantType\""
+                },
+                {
+                    "entity": "Type",
+                    "start": 17,
+                    "end": 21,
+                    "value": "\"hard\""
+                }
+            ]
+        },
+        {
+            "text": "I want something soft",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"wantType\""
+                },
+                {
+                    "entity": "Type",
+                    "start": 17,
+                    "end": 21,
+                    "value": "\"soft\""
+                }
+            ]
+        },
+        {
+            "text": "I want something non alcoolised",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"wantType\""
+                },
+                {
+                    "entity": "Type",
+                    "start": 17,
+                    "end": 31,
+                    "value": "\"non alcoolised\""
+                }
+            ]
+        },
+        {
+            "text": "I want an aloolised cocktail",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"wantType\""
+                },
+                {
+                    "entity": "Type",
+                    "start": 10,
+                    "end": 19,
+                    "value": "\"aloolised\""
+                }
+            ]
+        },
+        {
+            "text": "I want to drink an soft cocktail",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"wantType\""
+                },
+                {
+                    "entity": "Type",
+                    "start": 19,
+                    "end": 23,
+                    "value": "\"soft\""
+                }
+            ]
+        },
+        {
+            "text": "I want to drink a fresh cocktail",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"wantType\""
+                },
+                {
+                    "entity": "Type",
+                    "start": 18,
+                    "end": 23,
+                    "value": "\"fresh\""
+                }
+            ]
+        },
+        {
+            "text": "I want to drink a hard cocktail",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"wantType\""
+                },
+                {
+                    "entity": "Type",
+                    "start": 18,
+                    "end": 22,
+                    "value": "\"hard\""
+                }
+            ]
+        },
+        {
+            "text": "I want something strong",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"wantType\""
+                },
+                {
+                    "entity": "Type",
+                    "start": 17,
+                    "end": 23,
+                    "value": "\"strong\""
+                }
+            ]
+        },
+        {
+            "text": "Hello ",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"greetings\""
+                }
+            ]
+        },
+        {
+            "text": "Yo",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"greetings\""
+                }
+            ]
+        },
+        {
+            "text": "Good Morning",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"greetings\""
+                }
+            ]
+        },
+        {
+            "text": "i have rhum and lemon",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 7,
+                    "end": 11,
+                    "value": "\"rhum\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 16,
+                    "end": 21,
+                    "value": "\"lemon\""
+                }
+            ]
+        },
+        {
+            "text": "i have in my friend pepper and ketchup",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 31,
+                    "end": 38,
+                    "value": "\"ketchup\""
+                }
+            ]
+        },
+        {
+            "text": "i have sugar, porto",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 14,
+                    "end": 19,
+                    "value": "\"porto\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 7,
+                    "end": 12,
+                    "value": "\"sugar\""
+                }
+            ]
+        },
+        {
+            "text": "I have a lot of bananas and whisky",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 28,
+                    "end": 34,
+                    "value": "\"whisky\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 16,
+                    "end": 23,
+                    "value": "\"bananas\""
+                }
+            ]
+        },
+        {
+            "text": "i have in my fridge wishy",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 20,
+                    "end": 25,
+                    "value": "\"wishy\""
+                }
+            ]
+        },
+        {
+            "text": "ve in my fridge lemon",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 16,
+                    "end": 21,
+                    "value": "\"lemon\""
+                }
+            ]
+        },
+        {
+            "text": "i have lemon and whisky in my fridge",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 7,
+                    "end": 12,
+                    "value": "\"lemon\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 17,
+                    "end": 23,
+                    "value": "\"whisky\""
+                }
+            ]
+        },
+        {
+            "text": "What can I drink with Light rum",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 22,
+                    "end": 31,
+                    "value": "\"Light rum\""
+                }
+            ]
+        },
+        {
+            "text": "What can I drink with Applejack",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 22,
+                    "end": 31,
+                    "value": "\"Applejack\""
+                }
+            ]
+        },
+        {
+            "text": "What can I drink with Gin",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 22,
+                    "end": 25,
+                    "value": "\"gin\""
+                }
+            ]
+        },
+        {
+            "text": "What can I drink with Dark rum",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 22,
+                    "end": 30,
+                    "value": "\"Dark rum\""
+                }
+            ]
+        },
+        {
+            "text": "What can I drink with Sweet Vermouth ?",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 22,
+                    "end": 36,
+                    "value": "\"Sweet Vermouth\""
+                }
+            ]
+        },
+        {
+            "text": "What can I drink with Strawberry schnapps ?",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 22,
+                    "end": 41,
+                    "value": "\"Strawberry schnapps\""
+                }
+            ]
+        },
+        {
+            "text": "What can I drink with Strawberry schnapps and Sweet Vermouth ?",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 22,
+                    "end": 41,
+                    "value": "\"Strawberry schnapps\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 46,
+                    "end": 60,
+                    "value": "\"Sweet Vermouth\""
+                }
+            ]
+        },
+        {
+            "text": "What can I drink with Scotch and Triple sec ?",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 22,
+                    "end": 28,
+                    "value": "\"Scotch\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 33,
+                    "end": 43,
+                    "value": "\"Triple sec\""
+                }
+            ]
+        },
+        {
+            "text": "What can I drink with Southern Comfort, Orange bitters and Brandy ?",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 22,
+                    "end": 38,
+                    "value": "\"Southern Comfort\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 40,
+                    "end": 54,
+                    "value": "\"Orange bitters\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 59,
+                    "end": 65,
+                    "value": "\"Brandy\""
+                }
+            ]
+        },
+        {
+            "text": "What can I do with Triple sec ?",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 19,
+                    "end": 29,
+                    "value": "\"Triple sec\""
+                }
+            ]
+        },
+        {
+            "text": "What can I do with Lemon vodka and Champagne ?",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 35,
+                    "end": 44,
+                    "value": "\"Champagne\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 19,
+                    "end": 30,
+                    "value": "\"Lemon vodka\""
+                }
+            ]
+        },
+        {
+            "text": "What can I do with Coffee liqueur, Champagne and A\u00f1ejo rum ?",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 19,
+                    "end": 33,
+                    "value": "\"Coffee liqueur\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 35,
+                    "end": 44,
+                    "value": "\"Champagne\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 49,
+                    "end": 58,
+                    "value": "\"A\\u00f1ejo rum\""
+                }
+            ]
+        },
+        {
+            "text": "What is the best thing with Grenadine ?",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 28,
+                    "end": 37,
+                    "value": "\"Grenadine\""
+                }
+            ]
+        },
+        {
+            "text": "What is the best drink with Grenadine and Champagne ?",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 28,
+                    "end": 37,
+                    "value": "\"Grenadine\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 42,
+                    "end": 51,
+                    "value": "\"Champagne\""
+                }
+            ]
+        },
+        {
+            "text": "What is the best drink with Champagne, Coffee brandy and Port ?",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 28,
+                    "end": 37,
+                    "value": "\"Champagne\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 39,
+                    "end": 52,
+                    "value": "\"Coffee brandy\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 57,
+                    "end": 61,
+                    "value": "\"Port\""
+                }
+            ]
+        },
+        {
+            "text": "Give me an idea of cocktail !",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"randomCocktail\""
+                }
+            ]
+        },
+        {
+            "text": "Yo ! Give me an idea of a cocktail :) ",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"randomCocktail\""
+                },
+                {
+                    "entity": "intent",
+                    "value": "\"greetings\""
+                }
+            ]
+        },
+        {
+            "text": "Hey ! Give me a good idea of a cocktail ",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"randomCocktail\""
+                },
+                {
+                    "entity": "intent",
+                    "value": "\"greetings\""
+                }
+            ]
+        },
+        {
+            "text": "I have Champagne and Grenadine in my fridge",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 7,
+                    "end": 16,
+                    "value": "\"Champagne\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 21,
+                    "end": 30,
+                    "value": "\"Grenadine\""
+                }
+            ]
+        },
+        {
+            "text": "I have Chocolate sirup and milk in my fridge",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 27,
+                    "end": 31,
+                    "value": "\"milk\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 7,
+                    "end": 22,
+                    "value": "\"Chocolate sirup\""
+                }
+            ]
+        },
+        {
+            "text": "Give me a good idea !",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"randomCocktail\""
+                }
+            ]
+        },
+        {
+            "text": "What can you advise me ?",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"randomCocktail\""
+                }
+            ]
+        },
+        {
+            "text": "What can you advise me as a drink ?",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"randomCocktail\""
+                }
+            ]
+        },
+        {
+            "text": "Give me a good cocktail idea !",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"randomCocktail\""
+                }
+            ]
+        },
+        {
+            "text": "I have coffee",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 7,
+                    "end": 13,
+                    "value": "\"coffee\""
+                }
+            ]
+        },
+        {
+            "text": "Rum",
+            "entities": [
+                {
+                    "entity": "ingredient",
+                    "start": 0,
+                    "end": 3,
+                    "value": "\"Rum\""
+                },
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                }
+            ]
+        },
+        {
+            "text": "Champagne",
+            "entities": [
+                {
+                    "entity": "ingredient",
+                    "start": 0,
+                    "end": 9,
+                    "value": "\"Champagne\""
+                },
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                }
+            ]
+        },
+        {
+            "text": "Blended whiskey",
+            "entities": [
+                {
+                    "entity": "ingredient",
+                    "start": 0,
+                    "end": 15,
+                    "value": "\"Blended whiskey\""
+                },
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                }
+            ]
+        },
+        {
+            "text": "I have champagne",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 7,
+                    "end": 16,
+                    "value": "\"Champagne\""
+                }
+            ]
+        },
+        {
+            "text": "I have a lot of champagne",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 16,
+                    "end": 25,
+                    "value": "\"Champagne\""
+                }
+            ]
+        },
+        {
+            "text": "I have Creme de Cassis",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 7,
+                    "end": 22,
+                    "value": "\"Creme de Cassis\""
+                }
+            ]
+        },
+        {
+            "text": "Thanks !",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"thank\""
+                }
+            ]
+        },
+        {
+            "text": "You rock !",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"thank\""
+                }
+            ]
+        },
+        {
+            "text": "Great ! Thank you",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"thank\""
+                }
+            ]
+        },
+        {
+            "text": "Thank you !",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"thank\""
+                }
+            ]
+        },
+        {
+            "text": "I love it !",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"thank\""
+                }
+            ]
+        },
+        {
+            "text": "You are great !",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"thank\""
+                }
+            ]
+        },
+        {
+            "text": "Thank you",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"thank\""
+                }
+            ]
+        },
+        {
+            "text": "Thanks",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"thank\""
+                }
+            ]
+        },
+        {
+            "text": "Thank you !!!",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"thank\""
+                }
+            ]
+        },
+        {
+            "text": "Gracias",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"thank\""
+                }
+            ]
+        },
+        {
+            "text": "Merci",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"thank\""
+                }
+            ]
+        },
+        {
+            "text": "Danke",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"thank\""
+                }
+            ]
+        },
+        {
+            "text": "Thank u !",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"thank\""
+                }
+            ]
+        },
+        {
+            "text": "Thanks a lot",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"thank\""
+                }
+            ]
+        },
+        {
+            "text": "thanks a bunch",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"thank\""
+                }
+            ]
+        },
+        {
+            "text": "Thanks a ton",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"thank\""
+                }
+            ]
+        },
+        {
+            "text": "Thanks so much",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"thank\""
+                }
+            ]
+        },
+        {
+            "text": "I have Jack Daniels",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 7,
+                    "end": 19,
+                    "value": "\"Jack Daniels\""
+                }
+            ]
+        },
+        {
+            "text": "I have Peppermint schnapps",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 7,
+                    "end": 26,
+                    "value": "\"Peppermint schnapps\""
+                }
+            ]
+        },
+        {
+            "text": "I have Blackberry brandy",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 7,
+                    "end": 24,
+                    "value": "\"Blackberry brandy\""
+                }
+            ]
+        },
+        {
+            "text": "I have 7-Up",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 7,
+                    "end": 11,
+                    "value": "\"7-Up\""
+                }
+            ]
+        },
+        {
+            "text": "I have Sprite",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 7,
+                    "end": 13,
+                    "value": "\"Sprite\""
+                }
+            ]
+        },
+        {
+            "text": "I have Cider",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 7,
+                    "end": 12,
+                    "value": "\"Cider\""
+                }
+            ]
+        },
+        {
+            "text": "I have Sambuca",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"haveIngredients\""
+                },
+                {
+                    "entity": "ingredient",
+                    "start": 7,
+                    "end": 14,
+                    "value": "\"Sambuca\""
+                }
+            ]
+        },
+        {
+            "text": "give me another one",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"randomCocktail\""
+                }
+            ]
+        },
+        {
+            "text": "another one",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"randomCocktail\""
+                }
+            ]
+        },
+        {
+            "text": "once again",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"randomCocktail\""
+                }
+            ]
+        }
+    ]
+}

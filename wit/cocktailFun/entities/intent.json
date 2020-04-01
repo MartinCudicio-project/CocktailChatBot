@@ -1,0 +1,34 @@
+{
+    "data": {
+        "lookups": [
+            "trait"
+        ],
+        "name": "intent",
+        "lang": "en",
+        "id": "intent",
+        "doc": "User-defined entity",
+        "values": [
+            {
+                "value": "thank",
+                "expressions": []
+            },
+            {
+                "value": "greetings",
+                "expressions": []
+            },
+            {
+                "value": "wantType",
+                "expressions": []
+            },
+            {
+                "value": "haveIngredients",
+                "expressions": []
+            },
+            {
+                "value": "randomCocktail",
+                "expressions": []
+            }
+        ],
+        "builtin": false
+    }
+}

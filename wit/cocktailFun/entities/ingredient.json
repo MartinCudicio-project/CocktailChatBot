@@ -1,0 +1,285 @@
+{
+    "data": {
+        "lookups": [
+            "keywords",
+            "free-text"
+        ],
+        "name": "ingredient",
+        "lang": "en",
+        "id": "ingredient",
+        "doc": "User-defined entity",
+        "values": [
+            {
+                "value": "Sambuca",
+                "expressions": [
+                    "sambuca"
+                ]
+            },
+            {
+                "value": "Cider",
+                "expressions": [
+                    "cider"
+                ]
+            },
+            {
+                "value": "Sprite",
+                "expressions": [
+                    "sprite"
+                ]
+            },
+            {
+                "value": "7-Up",
+                "expressions": [
+                    "7-up"
+                ]
+            },
+            {
+                "value": "Blackberry brandy",
+                "expressions": [
+                    "blackberry brandy"
+                ]
+            },
+            {
+                "value": "Peppermint schnapps",
+                "expressions": [
+                    "peppermint schnapps"
+                ]
+            },
+            {
+                "value": "schnapps",
+                "expressions": [
+                    "schnapps"
+                ]
+            },
+            {
+                "value": "Jack Daniels",
+                "expressions": [
+                    "jack daniels"
+                ]
+            },
+            {
+                "value": "Creme de Cassis",
+                "expressions": [
+                    "creme de cassis"
+                ]
+            },
+            {
+                "value": "Blended whiskey",
+                "expressions": [
+                    "blended whiskey"
+                ]
+            },
+            {
+                "value": "Rum",
+                "expressions": [
+                    "rum"
+                ]
+            },
+            {
+                "value": "coffee",
+                "expressions": [
+                    "coffee"
+                ]
+            },
+            {
+                "value": "caca",
+                "expressions": [
+                    "caca"
+                ]
+            },
+            {
+                "value": "milk",
+                "expressions": [
+                    "milk"
+                ]
+            },
+            {
+                "value": "Chocolate sirup",
+                "expressions": [
+                    "chocolate sirup"
+                ]
+            },
+            {
+                "value": "Coffee brandy",
+                "expressions": [
+                    "coffee brandy"
+                ]
+            },
+            {
+                "value": "Port",
+                "expressions": [
+                    "port"
+                ]
+            },
+            {
+                "value": "Grenadine",
+                "expressions": [
+                    "grenadine"
+                ]
+            },
+            {
+                "value": "A\u00f1ejo rum",
+                "expressions": [
+                    "a\u00f1ejo rum"
+                ]
+            },
+            {
+                "value": "Coffee liqueur",
+                "expressions": [
+                    "coffee liqueur"
+                ]
+            },
+            {
+                "value": "Lemon vodka",
+                "expressions": [
+                    "lemon vodka"
+                ]
+            },
+            {
+                "value": "Champagne",
+                "expressions": [
+                    "champagne"
+                ]
+            },
+            {
+                "value": "Southern Comfort",
+                "expressions": [
+                    "southern comfort"
+                ]
+            },
+            {
+                "value": "Orange bitters",
+                "expressions": [
+                    "orange bitters"
+                ]
+            },
+            {
+                "value": "Brandy",
+                "expressions": [
+                    "brandy"
+                ]
+            },
+            {
+                "value": "Triple sec",
+                "expressions": [
+                    "triple sec"
+                ]
+            },
+            {
+                "value": "Scotch",
+                "expressions": [
+                    "scotch"
+                ]
+            },
+            {
+                "value": "Strawberry schnapps",
+                "expressions": [
+                    "strawberry schnapps"
+                ]
+            },
+            {
+                "value": "Sweet Vermouth",
+                "expressions": [
+                    "sweet vermouth"
+                ]
+            },
+            {
+                "value": "Dark rum",
+                "expressions": [
+                    "dark rum"
+                ]
+            },
+            {
+                "value": "Applejack",
+                "expressions": [
+                    "applejack"
+                ]
+            },
+            {
+                "value": "Light rum",
+                "expressions": [
+                    "light rum"
+                ]
+            },
+            {
+                "value": "wishy",
+                "expressions": [
+                    "wishy"
+                ]
+            },
+            {
+                "value": "bananas",
+                "expressions": [
+                    "bananas"
+                ]
+            },
+            {
+                "value": "sugar",
+                "expressions": [
+                    "sugar"
+                ]
+            },
+            {
+                "value": "porto",
+                "expressions": [
+                    "porto"
+                ]
+            },
+            {
+                "value": "ketchup",
+                "expressions": [
+                    "ketchup"
+                ]
+            },
+            {
+                "value": "lemon juice",
+                "expressions": [
+                    "lemon juice"
+                ]
+            },
+            {
+                "value": "orange juice",
+                "expressions": [
+                    "orange juice"
+                ]
+            },
+            {
+                "value": "menthe",
+                "expressions": [
+                    "menthe"
+                ]
+            },
+            {
+                "value": "whisky",
+                "expressions": [
+                    "whisky"
+                ]
+            },
+            {
+                "value": "lemon",
+                "expressions": [
+                    "lemon"
+                ]
+            },
+            {
+                "value": "gin",
+                "expressions": [
+                    "gin"
+                ]
+            },
+            {
+                "value": "rhum",
+                "expressions": [
+                    "rhum"
+                ]
+            },
+            {
+                "value": "vodka",
+                "expressions": [
+                    "vodka"
+                ]
+            }
+        ],
+        "builtin": false
+    }
+}
