@@ -13,4 +13,10 @@ Here is a demo for you of our chatbot :
 
 
 Once you talk with him ! Let's drink 🧉
-Enjoy 😊 
+
+You can ask him what he can do by welcoming him. You can tell him what you have in your fridge or what you have in order to get a cocktail. You can also ask him to give you the nutritional incomes of each ingredient in you cocktail, the way to know it is by using the quick reply.
+Furthermore, you can ask him a random cocktail in various ways, as "Give me a good cocktail !" or "Tell me a drink". You will be able to know the nutritional incomes with a quick reply again and you can also with quick reply ask for another one. You can also ask him another one by saying sentences like "Once again" or "Another one".
+
+Last advise, talk to him in English ! 🇬🇧
+
+Enjoy ! 😊 
